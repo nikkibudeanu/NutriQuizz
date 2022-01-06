@@ -155,6 +155,23 @@ footer {
     color: #FB7813;
 }
 
+/* QUIZZ */
+.options-content{
+    width: 100%;
+}
+
+.options {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width:100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid #FB7813;
+}
+
+
+
+
+
 @media screen and (max-width: 1000px) and (min-width: 320px) {
     .container {
         top: 150px;
