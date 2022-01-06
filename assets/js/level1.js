@@ -354,3 +354,44 @@ options.forEach(option => {
     
     hasAnyOptionBeenClicked=false;
 }
+
+
+function addEventListenerToOptions() {
+    options.forEach(option=>{
+      option.addEventListener('click', e => {
+          if(hasAnyOptionBeenClicked) return;
+  
+          hasAnyOptionBeenClicked = true;
+      
+          const clickedOption = e.target;
+          const clickedAnswer = clickedOption.dataset['number'];
+  
+          const isAnswerCorrect = clickedAnswer == currentQuestion.answer;
+          
+          const classToApply = isAnswerCorrect ? "correct" : "incorrect";
+          
+  
+          if(isAnswerCorrect) {
+              raiseScore();
+          }
+  
+          clickedOption.parentElement.classList.add(classToApply);
+  
+          const timeoutRef = setTimeout(() => {
+              clickedOption.parentElement.classList.remove(classToApply);
+              getNextQuestion();
+              clearTimeout(timeoutRef);
+            }, 1000);
+      });
+    });
+  }
+    
+  function raiseScore() {
+      score += CORRECT_AWARD;
+      scoreDisplay.innerText = score;
+  }
+  
+  startGame();
+        
+  
+      
