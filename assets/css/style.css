@@ -131,4 +131,18 @@ animation: gradient 10s ease infinite;
          transform: translateY(-0.1rem);
          transition: transform 150ms;
        }
+
+/* FOOTER */
+
+footer {
+    height: 40px;
+   position:absolute;
+   bottom:0;
+   left:50%;
+   transform: translateX(-50%);
+}
+
+
+
+
    
