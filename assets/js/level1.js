@@ -1,3 +1,4 @@
+
 const QUESTION_BANK = {
     1: [
         {
@@ -291,15 +292,6 @@ const QUESTION_BANK = {
     }]
   };
 
-  const question = document.getElementById('question');
-  const options = Array.from(document.getElementsByClassName('options-content'));
-
-   
-  let currentQuestion={};
-  let hasAnyOptionBeenClicked = false;
-  let score= 0;
-  let questionNumber =0;
-  let availableQuestions =[];
   
   
 //CONSTANTS
@@ -311,7 +303,7 @@ const QUESTION_BANK = {
     const level = urlParams.get('level');
     return level;
   }
-
+  
   function startGame() {
     questionNumber=0;
     score=0;
@@ -322,5 +314,22 @@ const QUESTION_BANK = {
 
     // Randomise the question sequence
     availableQuestions = availableQuestions.sort( () => .5 - Math.random() );
-   
+    addEventListenerToOptions();
+    getNextQuestion();
+}
+
+function getNextQuestion() {
+  
+    // End of quiz 
+    if(questionNumber >= MAX_QUESTIONS){
+        localStorage.setItem('recentScore', score);
+        return window.location.assign("/final-page1.html");
+    }
+
+    questionNumber++;
+    // Update question number text on UI
+    questionNumberDisplay.innerText = questionNumber + "/" + MAX_QUESTIONS;
+
+    
+    hasAnyOptionBeenClicked=false;
 }
