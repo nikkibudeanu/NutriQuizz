@@ -22,6 +22,16 @@ h2 {
    font-family: 'Space Mono', monospace;
 }
 
+/* HEADER */
+
+header{
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
 /* CONTAINER*/
 .container{
     margin: 0 40px;
