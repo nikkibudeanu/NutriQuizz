@@ -1,3 +1,14 @@
+const question = document.getElementById('question');
+const options = Array.from(document.getElementsByClassName('options-content'));
+const questionNumberDisplay = document.getElementById('question-number');
+const scoreDisplay = document.getElementById('score');
+
+
+let currentQuestion={};
+let hasAnyOptionBeenClicked = false;
+let score= 0;
+let questionNumber =0;
+let availableQuestions =[];
 
 const QUESTION_BANK = {
     1: [
@@ -334,6 +345,12 @@ function getNextQuestion() {
 currentQuestion = availableQuestions[questionNumber - 1];
 question.innerText = currentQuestion.question;
 
+
+// Displaying each option
+options.forEach(option => {
+    const number = option.dataset['number'];
+    option.innerText = currentQuestion['option' + number];
+});
     
     hasAnyOptionBeenClicked=false;
 }
