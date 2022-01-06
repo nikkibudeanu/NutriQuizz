@@ -48,6 +48,10 @@ header img {
     font-size: 1.2rem;
     font-weight: 900;
 }
+.navbar a:hover{
+    color: #FB7813;
+}
+
 
 
 /* CONTAINER*/
