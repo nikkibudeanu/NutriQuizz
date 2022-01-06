@@ -334,7 +334,7 @@ function getNextQuestion() {
     // End of quiz 
     if(questionNumber >= MAX_QUESTIONS){
         localStorage.setItem('recentScore', score);
-        return window.location.assign("/final-page1.html");
+        return window.location.assign("/end.html");
     }
 
     questionNumber++;
@@ -390,8 +390,7 @@ function addEventListenerToOptions() {
       score += CORRECT_AWARD;
       scoreDisplay.innerText = score;
   }
-  
+ 
   startGame();
-        
+
   
-      
