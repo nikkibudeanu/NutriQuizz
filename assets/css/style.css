@@ -31,6 +31,9 @@ header{
     align-items: flex-start;
 }
 
+header img {
+    height:140px;
+}
 /* NAVIGATION BAR */
 .navbar{
     display:flex;
