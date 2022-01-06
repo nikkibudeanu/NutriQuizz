@@ -166,7 +166,31 @@ footer {
     width:100%;
     font-size: 1.8rem;
     border: 0.1rem solid #FB7813;
+    background-color: #F7F7EE;
 }
+.options:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    border-radius: 0 20px 20px 0 ;
+  
+}
+
+.options-prefix{
+    padding:1.5rem 2.5rem;
+    background-color: #FB7813;
+    color:#F7F7EE;
+    font-weight: 900;
+    border-radius: 0 20px 20px 0;
+}
+
+.options-content{
+    padding:1.5rem;
+    color:#17706E;
+    font-weight: 500;
+}
+
 
 
 
