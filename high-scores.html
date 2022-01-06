@@ -8,8 +8,10 @@
     <meta name="keywords" content="quizz game nutrition iq ">
     <!-- Link to CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/final-page.css">
 
-    <title>NutriQuizz | NutriBaby</title>
+
+    <title>NutriQuizz | High Scores</title>
 </head>
 <body>
 <!--Header-->
@@ -20,68 +22,19 @@
     <!-- Top Navigation Menu -->
     <div class="navbar">
         <a href="index.html"> Home</a> 
-        <a href="high-scores.html"> High Scores</a> 
-        <a href="about.html"> About </a> 
+        <a href="high-scores.html"> High Scores <i class="fas fa-trophy"></i> </a> 
+        <a href="about.html">About </a> 
     </div>
 
     </header>
 
 <div class="container">
-
-
-
-    <div id="first-quizz"  > 
-        <h1>NutriBaby <i class="fas fa-baby"></i></h1>
-    
-        <div id="info">
-            <div id="info-item">
-              <p class="display-progress">
-                Question number:
-              </p>
-              <h2 class="info-text" id="question-number"></h2>
-            
-              
-            </div>
-    
-            <div id="info-item">
-              <p class="info-prefix">
-                Score:
-              </p>
-              <h2 class="info-text" id="score">
-                0
-              </h2>
-            </div>
-           </div>
-
-
-           
-        <h2 id="question"> What is the answer to this question?</h2>
-    
-        <div class="options">
-           <p class="options-prefix">A</p>
-           <p class="options-content" data-number="1">1</p>
-        </div>
-    
-        <div class="options">
-            <p class="options-prefix">B</p>
-            <p class="options-content" data-number="2">2</p>
-        </div>
-    
-         
-        <div class="options">
-            <p class="options-prefix">C</p>
-            <p class="options-content" data-number="3">3</p>
-        </div>
-    
-        <div class="options">
-            <p class="options-prefix">D</p>
-            <p class="options-content" data-number="4"> 4</p>
-            </div>
-       
+    <div id="highestScores" >
+        <h1 id="final-score">Highest Scores <br> <i class="fas fa-trophy"></i></h1>
+        <ol id="highestScoresList"></ol>
+      </div>
     </div>
-    
-   
-</div>
+
 
 
     <footer>
@@ -101,9 +54,7 @@
     </footer>
 <!--Font awesome script-->
 <script src="https://kit.fontawesome.com/ce8a43f771.js" crossorigin="anonymous"></script>
-<script src="assets/js/index.js"></script>
-
-
+<script src="assets/js/high-scores.js"></script>
 </body>
 
 

@@ -29,7 +29,8 @@ h1 {
     padding: 1.5rem;
 }
 h2 {
-   font-family: 'Space Mono', monospace;
+   font-family: 'Libre Franklin', monospace;
+   color:  #F7F7EE;
    text-align: center;
    font-size: 1.5rem;
    padding:1.5rem;
@@ -158,6 +159,11 @@ footer {
 /* QUIZZ */
 .options-content{
     width: 100%;
+}
+
+#info{
+    display: flex;
+    justify-content: space-around;
 }
 
 .options {
