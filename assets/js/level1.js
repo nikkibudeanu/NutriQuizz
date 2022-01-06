@@ -327,8 +327,12 @@ function getNextQuestion() {
     }
 
     questionNumber++;
-    // Update question number text on UI
+// Update question number text on UI
     questionNumberDisplay.innerText = questionNumber + "/" + MAX_QUESTIONS;
+
+// Picking the next question index which comes sequentially
+currentQuestion = availableQuestions[questionNumber - 1];
+question.innerText = currentQuestion.question;
 
     
     hasAnyOptionBeenClicked=false;
