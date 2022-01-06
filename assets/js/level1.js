@@ -290,3 +290,37 @@ const QUESTION_BANK = {
         answer: 2,
     }]
   };
+
+  const question = document.getElementById('question');
+  const options = Array.from(document.getElementsByClassName('options-content'));
+
+   
+  let currentQuestion={};
+  let hasAnyOptionBeenClicked = false;
+  let score= 0;
+  let questionNumber =0;
+  let availableQuestions =[];
+  
+  
+//CONSTANTS
+  const CORRECT_AWARD =1 ;
+  const MAX_QUESTIONS =12;
+  
+  function getQuizLevel() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const level = urlParams.get('level');
+    return level;
+  }
+
+  function startGame() {
+    questionNumber=0;
+    score=0;
+
+    const level = getQuizLevel();
+    availableQuestions=[...QUESTION_BANK[1]];
+
+
+    // Randomise the question sequence
+    availableQuestions = availableQuestions.sort( () => .5 - Math.random() );
+   
+}
