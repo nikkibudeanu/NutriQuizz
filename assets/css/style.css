@@ -2,16 +2,53 @@
 
 
   
-h1 {
-    color: #F7F7EE;
-    text-transform: uppercase;
-  }
+
   
   h1 span {
     color: #f1ebe5;
     text-shadow: 0 13.36px 8.896px #FB7813,0 -2px 1px #f1ebe5;
   }
 
+
+
+  .play-button {
+background-color: #fbeee0;
+  border: 2px solid #FB7813;
+  border-radius: 30px;
+  box-shadow: #FB7813 4px 4px 0 0;
+  color: #FB7813;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 900;
+  font-size: 3rem;
+  padding: 20px 50px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  text-transform: uppercase;
+}
+
+.play-button:hover {
+ color: #17706E;
+ background-color: white;
+}
+
+.play-button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+  
+  
+ 
+
+  
+ 
+
+  
 /* BODY */
 
 * {
@@ -37,8 +74,9 @@ h1 {
     color:  #F7F7EE;
     text-align: center;
     font-weight: 900;
-    font-size: 5rem;
+    font-size: 4rem;
     padding: 1.5rem;
+    text-transform: uppercase;
 }
 h2 {
    font-family: 'Libre Franklin', monospace;
