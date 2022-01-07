@@ -113,20 +113,14 @@ const QUESTION_BANK = [
   
   
 //CONSTANTS
-  const CORRECT_AWARD =1 ;
+  const CORRECT_AWARD =10 ;
   const MAX_QUESTIONS =12;
   
-  function getQuizLevel() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const level = urlParams.get('level');
-    return level;
-  }
   
   function startGame() {
     questionNumber=0;
     score=0;
 
-    const level = getQuizLevel();
     availableQuestions=[...QUESTION_BANK];
 
 
@@ -175,7 +169,7 @@ function addEventListenerToOptions() {
   
           const isAnswerCorrect = clickedAnswer == currentQuestion.answer;
           
-          const classToApply = isAnswerCorrect ? "correct" : "incorrect";
+          const classToApply = isAnswerCorrect ? "right" : "wrong";
           
   
           if(isAnswerCorrect) {

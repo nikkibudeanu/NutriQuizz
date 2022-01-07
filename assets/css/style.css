@@ -191,12 +191,12 @@ footer {
     color:#17706E;
     font-weight: 500;
 }
-.correct {
+.right {
     background-color: greenyellow;
     
 }
 
-.incorrect{
+.wrong{
     background-color: red;
 }
 
