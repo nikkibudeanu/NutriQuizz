@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;900&display=swap');
 
 
+  
+h1 {
+    color: #F7F7EE;
+    text-transform: uppercase;
+  }
+  
+  h1 span {
+    color: #f1ebe5;
+    text-shadow: 0 13.36px 8.896px #FB7813,0 -2px 1px #f1ebe5;
+  }
+
 /* BODY */
 
 * {
@@ -9,10 +20,11 @@
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Libre Franklin', sans-serif;
     font-weight: 300;
     color: #FB7813;
     background-color: #F7F7EE;
+    font-weight: 500;
     
 }
 
@@ -25,7 +37,7 @@ h1 {
     color:  #F7F7EE;
     text-align: center;
     font-weight: 900;
-    font-size: 2rem;
+    font-size: 5rem;
     padding: 1.5rem;
 }
 h2 {
@@ -34,6 +46,7 @@ h2 {
    text-align: center;
    font-size: 1.5rem;
    padding:1.5rem;
+
 }
 
 /* HEADER */
@@ -84,29 +97,9 @@ header img {
     }
 
 
-.play-quizz{
-  display: flex;
-  justify-content: center;
-  font-family: 'Libre Franklin', sans-serif;
-  font-weight: 900;
-  text-transform: uppercase;
-  font-size: 1rem;
-
-}
 
 
-.play-quizz div {
-width: 80px;
-height:50px;
-background-color: #F7F7EE;
-border-radius: 30px;
-border: 4px solid #FB7813;
-background: linear-gradient(to right, #B6EB7A,#F7F7EE , #F7F7EE, #B6EB7A);
-background-size: 300% 300%;
-animation: gradient 10s ease infinite;
-margin-left: 10px;
 
-}
 
 
 @keyframes gradient {
