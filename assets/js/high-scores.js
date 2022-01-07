@@ -1,2 +1,9 @@
 const highestScoresList = document.getElementById("highestScoresList");
 const highestScores = JSON.parse(localStorage.getItem("highestScores")) || [];
+
+highestScoresList.innerHTML = highestScores
+  .map(score => {
+    return `<li class="high-score">${score.name} : ${score.score}</li>`;
+    
+  })
+  .join("");
