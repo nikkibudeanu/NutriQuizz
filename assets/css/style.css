@@ -2,11 +2,23 @@
 
 
   
+#home {
+    height:600px;
+}
+#how-to-play{
+    height:600px;
+}
+#high-scores{
+    height:600px;
+}
+#nutrition-myths{
+    height:600px;
+}
 
-  
   h1 span {
     color: #f1ebe5;
     text-shadow: 0 13.36px 8.896px #FB7813,0 -2px 1px #f1ebe5;
+    font-size: 3rem;
   }
 
 
@@ -134,7 +146,11 @@ header img {
         text-align: center;
     }
 
-
+.play-quizz {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
