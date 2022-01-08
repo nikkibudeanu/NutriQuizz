@@ -134,7 +134,7 @@ background-color: #fbeee0;
 }
 
   
-  
+
  
 
   
@@ -415,6 +415,30 @@ footer {
   display: none;
 
 }
+
+.music-icon{
+  font-size:2rem;
+  background-color: #fbeee0;
+  border: 2px solid #FB7813;
+  border-radius: 20px;
+  box-shadow: #FB7813 4px 4px 0 0;
+  color: #FB7813;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 2rem;
+  padding: 10px 20px;
+}
+
+.music-icon:hover {
+ color: #17706E;
+ background-color: white;
+}
+
+.music-icon:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
 
 
 

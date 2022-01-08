@@ -3,13 +3,16 @@ const recentScore = localStorage.getItem('recentScore');
 const submitScoreButton = document.getElementById('submit-score-button');
 const finalScore = document.getElementById('final-score');
 
+const highImg = document.getElementById('high');
+const mediumImg = document.getElementById('medium');
+const lowImg = document.getElementById('low');
+const message = document.getElementById('message');
+
 const highestScores = JSON.parse(localStorage.getItem('highestScores')) || [];
 
 const MAX_HIGHEST_SCORES = 10;
 
-finalScore.innerText = recentScore;
-
-
+finalScore.innerText = `You scored ${recentScore} out of 200`;
 
 
 username.addEventListener('keyup', () => {

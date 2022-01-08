@@ -11,6 +11,7 @@ let questionNumber =0;
 let availableQuestions =[];
 
 const QUESTION_BANK = [
+ 
         {
             question: "Which of the following nutrients provides energy to the body?",
             option1: 'carbohydrates',
