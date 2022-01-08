@@ -11,15 +11,15 @@
 }
 
 .scrolled.slide-left {
-  animation: slide-in-left 0.5s ease-in-out both;
+  animation: slide-to-left 0.5s ease-in-out both;
 }
 
 .scrolled.slide-right {
-  animation: slide-in-right 0.5s ease-in-out both;
+  animation: slide-to-right 0.5s ease-in-out both;
 }
 
 
-@keyframes slide-in-left {
+@keyframes slide-to-left {
   0% {
     -webkit-transform: translateX(-100px);
     transform: translateX(-100px);
@@ -32,7 +32,7 @@
   }
 }
 
-@keyframes slide-in-right {
+@keyframes slide-to-right {
   0% {
     -webkit-transform: translateX(100px);
     transform: translateX(100px);
