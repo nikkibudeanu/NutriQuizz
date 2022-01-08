@@ -10,7 +10,7 @@ function backToTopFunction() {
 
 // scroll animation
 
-//scroll variables
+//scroll variables inspired by https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671
 const scrollElements = document.querySelectorAll(".jsScroll");
 
 const inView = (el, dividend = 1) => {

@@ -10,12 +10,21 @@
   opacity: 1;
 }
 
-.scrolled.slide-left {
+.done.slide-left {
   animation: slide-to-left 0.5s ease-in-out both;
 }
 
-.scrolled.slide-right {
+.done.slide-right {
   animation: slide-to-right 0.5s ease-in-out both;
+}
+
+.done.slide-left-slower{
+animation: slide-to-left 3s ease-in-out both;
+}
+
+.done.slide-right-slower{
+  animation: slide-to-right 3s ease-in-out both;
+
 }
 
 
