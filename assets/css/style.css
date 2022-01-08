@@ -91,18 +91,7 @@ animation: slide-to-left 3s ease-in-out both;
     }
 }
 
-#home {
-    height:600px;
-}
-#how-to-play{
-    height:600px;
-}
-#high-scores{
-    height:600px;
-}
-#nutrition-myths{
-    height:600px;
-}
+
 
   h1 span {
     color: #f1ebe5;
@@ -257,6 +246,7 @@ display:flex;
 flex-wrap: wrap;
 justify-content:center ;
 }
+
 .container{
     margin: 10px 40px;
     background-color:#17706E; 
