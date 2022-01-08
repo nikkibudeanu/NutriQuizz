@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;900&display=swap');
+
+
+
 /* arrow*/
 .arrow{
     width: 50px; 
@@ -195,13 +198,13 @@ header img {
 /* CONTAINER*/
 
 .container{
-    margin: 0 40px;
+    margin: 10px 40px;
     background-color:#17706E; 
     border-radius: 30px;
     padding: 30px 80px;
     min-height: calc(100vh - 500px);
     position:relative;
-    animation: slide 2s;
+   /* animation: slide 2s*/
    
   }
 
@@ -372,20 +375,7 @@ footer {
 
 
 @media screen and (max-width: 1000px) and (min-width: 320px) {
-    .container {
-        top: 150px;
-      }
-    .select-level{
-       flex-wrap: wrap;
-       justify-content: center;
-      }
     
-    
-      .select-level div {
-    margin: 10px;
- 
-
-      }   
 }
 
 
