@@ -1,5 +1,5 @@
 // button variable
-var button = document.getElementById("back-to-top-btn");
+var button = document.getElementById("to-top-btn");
 
 
 // When the user clicks on the button, scroll to the top of the document
