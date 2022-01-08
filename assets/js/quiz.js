@@ -198,7 +198,18 @@ function addEventListenerToOptions() {
   music.loop = true;
   let soundOn = false;
 
- 
+function musicCtrl() {
+    soundOn = !soundOn;
+    if (soundOn) {
+        music.play();
+        document.getElementById("sound-on").classList.add('hide');
+        document.getElementById("sound-off").classList.remove('hide');
+    } else {
+        music.pause();
+        document.getElementById("sound-off").classList.add('hide');
+        document.getElementById("sound-on").classList.remove('hide');
+    }
+}
 
   
   
