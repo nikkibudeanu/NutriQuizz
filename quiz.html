@@ -31,13 +31,14 @@
     </header>
     <div class="main-page" >
 <div class="container volume-control">
-    <a class="volume-icon" onClick="soundControl();" id="sound-on">
-        <i class="fas fa-volume-mute" aria-label="Turn on background sound"></i>
+    <a class="music-icon" onClick="musicCtrl();" id="music-on">
+        <i class="fas fa-volume-mute" aria-label="Turn on background music"></i>
     </a>
-    <a class="volume-icon" onClick="soundControl();" id="sound-off">
-        <i class="fas fa-volume-up" aria-label="Turn off background sound"></i>
+    <a class="music-icon" onClick="musicCtrl();" id="music-off">
+        <i class="fas fa-volume-up" aria-label="Turn off background music"></i>
     </a>
     
+
 
     <div id="first-quizz"  > 
         <h1>NutriQuiz</i></h1>
@@ -109,6 +110,7 @@
     </ul>
     </footer>
 <!--Font awesome script-->
+<audio id="music" src="assets/audio/background-music.mp3"></audio>
 <script src="https://kit.fontawesome.com/ce8a43f771.js" crossorigin="anonymous"></script>
 <script src="assets/js/quiz.js"></script>
 

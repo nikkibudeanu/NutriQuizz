@@ -191,7 +191,17 @@ function addEventListenerToOptions() {
       score += CORRECT_AWARD;
       scoreDisplay.innerText = score;
   }
+
+  // background music variables
+  let music = document.getElementById('music');
+  music.volume = 0.2;
+  music.loop = true;
+  let soundOn = false;
+
  
+
+  
+  
   startGame();
 
   
