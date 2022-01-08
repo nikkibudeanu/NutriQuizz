@@ -198,16 +198,18 @@ function addEventListenerToOptions() {
   music.loop = true;
   let soundOn = false;
 
+  // music control function 
 function musicCtrl() {
     soundOn = !soundOn;
     if (soundOn) {
         music.play();
-        document.getElementById("sound-on").classList.add('hide');
-        document.getElementById("sound-off").classList.remove('hide');
+        //add class to hide icons
+        document.getElementById("sound-on").classList.add('hidden');
+        document.getElementById("sound-off").classList.remove('hidden');
     } else {
         music.pause();
-        document.getElementById("sound-off").classList.add('hide');
-        document.getElementById("sound-on").classList.remove('hide');
+        document.getElementById("sound-off").classList.add('hidden');
+        document.getElementById("sound-on").classList.remove('hidden');
     }
 }
 
