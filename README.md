@@ -46,6 +46,9 @@ The features of NutriQuiz will include:
 * The ability to get feedback on your nutrition knowledge.
 * The ability to access a step by step "how to play" instruction. 
 * The ability to access social media accounts clicking on the footer icons. 
+* The ability to scroll up the page by clicking on a scroll-to-top button. 
+* The ability to turn on/off background music. 
+
 
 
 
