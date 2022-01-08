@@ -105,12 +105,14 @@ animation: slide-to-left 3s ease-in-out both;
 background-color: #fbeee0;
   border: 2px solid #FB7813;
   border-radius: 30px;
+  font-family: 'Libre Franklin', sans-serif;
+
   box-shadow: #FB7813 4px 4px 0 0;
   color: #FB7813;
   cursor: pointer;
   display: inline-block;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 20px 50px;
   line-height: 50px;
   text-align: center;
@@ -156,7 +158,7 @@ body {
 }
 
 p{
-font-size:1.2rem;
+font-size:1rem;
 }
 
 h1 {
@@ -165,7 +167,7 @@ h1 {
     text-align: center;
     font-weight: 900;
     font-size: 4rem;
-    padding: 1.5rem;
+    padding: 2rem;
     text-transform: uppercase;
 }
 h2 {
@@ -217,6 +219,7 @@ header img {
     border-radius: 30px;
     box-shadow: #FB7813 4px 4px 0 0;
     color: #FB7813;
+    font-family: 'Libre Franklin', sans-serif;
     cursor: pointer;
     font-weight: 900;
     font-size: 1rem;

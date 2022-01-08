@@ -110,3 +110,4 @@ https://www.fontpair.co/fonts/librefranklin
 ## About Page:
 ![Lighthouse report](assets/images/)
 
+https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671
