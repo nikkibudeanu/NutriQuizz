@@ -16,7 +16,6 @@ font-weight: 300;
 color: #FB7813;
 background-color: #F7F7EE;
 font-weight: 500;
-overflow-x: hidden;
   
 }
 
@@ -30,6 +29,8 @@ h1 span {
   color: #f1ebe5;
   text-shadow: 0 13.36px 8.896px #FB7813,0 -2px 1px #f1ebe5;
   font-size: 3rem;
+  text-align: center;
+
 }
 
 
@@ -141,6 +142,8 @@ display:none;
       min-height: calc(100vh - 240px);
       position:relative;
       width:100%;
+      overflow-x: hidden;
+
     }
 
   .container a{
@@ -436,7 +439,6 @@ background-color: #fbeee0;
   .container{
     margin: 10px 20px;
     width:100%; 
-    overflow-x: hidden;
 
   }
   h1{
@@ -478,6 +480,8 @@ background-color: #fbeee0;
   font-size: 2rem;
   float: right;
     }
+
+
   /* footer section */
 
   footer {
@@ -511,8 +515,7 @@ background-color: #fbeee0;
   flex-wrap: wrap;
   gap: 1rem;
   row-gap: 0.5rem;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-around;
   padding-top: 30px;
 }
 
@@ -520,27 +523,47 @@ background-color: #fbeee0;
   display:none;
 }
 
-.options {
-  width:100%;
-  margin-left:-50px;
-}
-
 .options-content{
   font-size: 1rem; 
+  width:fit-content;
+  padding: 10px 5px;
+}
+.options-prefix{
+  font-size: 1rem;
+  padding:10px 20px;
 }
 #question{
   text-align:center;
   font-size: 1.2rem;
 }
-
-
 .music-icon{
 font-size: 1rem;
 }
+/* main page*/
 
-
+#to-top-btn{
+  margin-bottom: 10px;
+}
+#final-score span{
+font-size: 2rem;
 }
 
+h2 {
+  padding:20px 0px;
+  font-size: 1rem;
+
+}
+/* 
+PLAY BUTTONS ON THE MAIN PAGE 
+inspired from: https://getcssscan.com/css-buttons-examples
+*/
+
+.play-button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+  
+}
+}
 
 
 
