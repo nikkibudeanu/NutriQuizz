@@ -488,7 +488,7 @@ form {
         margin-top: 40px;
         margin-bottom: 10px;
         border-bottom: 2px solid #fb7813;
-        width:100%;
+        width: 100%;
     }
 
     .navbar a.hamburger-icon {
@@ -578,6 +578,3 @@ inspired from: https://getcssscan.com/css-buttons-examples
         padding: 10px 20px;
     }
 }
-
-
-   

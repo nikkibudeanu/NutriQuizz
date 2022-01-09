@@ -200,7 +200,7 @@ function getNextQuestion() {
     // End of quiz 
     if(questionNumber >= MAX_QUESTIONS){
         localStorage.setItem('recentScore', score);
-        return window.location.assign("/end.html");
+        return window.location.assign("/NutriQuizz/end.html");
     }
 
     questionNumber++;

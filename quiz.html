@@ -1,129 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Responsive quizz website">
-    <meta name="keywords" content="quizz game nutrition iq ">
-    <!-- Link to CSS-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Responsive quizz website" />
+        <meta name="keywords" content="quizz game nutrition iq " />
+        <!-- LINK TO CSS-->
+        <link rel="stylesheet" href="assets/css/style.css" />
 
-    <title>NutriQuizz | NutriBaby</title>
-</head>
-<body>
-<!--Header-->
-    <header> 
-    <div id="logo"> 
-           <a href="index.html"> <img src="assets/images/nutri.png" alt="logo" /> </a> 
-    </div>
-    <!-- Top Navigation Menu -->
-    <div class="navbar">
-        <div id="links">
-        <a href="index.html">
-                Home
-        </a>
-        <a href="high-scores.html">
-                High scores <i class="fas fa-trophy"></i></a>
-        <a href="quiz.html" class="nav-play">
-                    Play  <i class="far fa-play-circle"></i></a>
-    </div>
-    <a href="javascript:void(0);" class="hamburger-icon" onclick="hamburgerMenu()">
-        <i class="fa fa-bars"></i>
-      </a>
-</div>
+        <title>NutriQuizz | Home</title>
+    </head>
 
-    </header>
-    <div class="main-page" >
-<div class="container volume-control">
-    <a class="music-icon" onClick="musicCtrl();" id="sound-on">
-        <i class="fas fa-volume-mute" aria-label="Turn on background music"></i>
-    </a>
-    <a class="music-icon hidden" onClick="musicCtrl();" id="sound-off">
-        <i class="fas fa-volume-up" aria-label="Turn off background music"></i>
-    </a>
-    
-
-
-    <div id="first-quizz"  > 
-        <h1>NutriQuiz</h1>
-    
-        <div id="info">
-            <div id="info-item">
-              <p class="display-progress">
-                Question number:
-              </p>
-              <h2 class="info-text" id="question-number"></h2>
-            
-              
+    <body>
+        <!-- HEADER -->
+        <header>
+            <div id="logo">
+                <a href="index.html"> <img src="assets/images/nutri.png" alt="logo" /> </a>
             </div>
-    
-            <div id="info-item">
-              <p class="info-prefix">
-                Score:
-              </p>
-              <h2 class="info-text" id="score">
-                0
-              </h2>
+            <!-- Top Navigation Menu -->
+            <div class="navbar">
+                <div id="links">
+                    <a href="index.html">
+                        Home
+                    </a>
+                    <a href="#how-to-play"> How to Play? </a>
+                    <a href="#high-scores"> High scores <i class="fas fa-trophy"></i></a>
+                    <a href="quiz.html" class="nav-play"> Play <i class="far fa-play-circle"></i></a>
+                </div>
+                <a href="javascript:void(0);" class="hamburger-icon" onclick="hamburgerMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
-           </div>
+        </header>
+        <!--HOME SECTION-->
+        <div class="main-page">
+            <div class="container">
+                <section id="home">
+                    <h1>
+                        <span>DID</span> <span>YOU</span> <span>KNOW</span><span> <i class="fas fa-question"></i></span>
+                    </h1>
 
+                    <h2 class="scroll-container jsScroll slide-left-slower">
+                        SOCIAL MEDIA exposes you to endless information about NUTRITION — MOST OF WHICH IS INCORRECT.
+                    </h2>
 
-           
-        <h2 id="question"> What is the answer to this question?</h2>
-    
-        <div class="options">
-           <p class="options-prefix">A</p>
-           <p class="options-content" data-number="1">1</p>
-        </div>
-    
-        <div class="options">
-            <p class="options-prefix">B</p>
-            <p class="options-content" data-number="2">2</p>
-        </div>
-    
-         
-        <div class="options">
-            <p class="options-prefix">C</p>
-            <p class="options-content" data-number="3">3</p>
-        </div>
-    
-        <div class="options">
-            <p class="options-prefix">D</p>
-            <p class="options-content" data-number="4"> 4</p>
+                    <h2 class="scroll-container jsScroll slide-right-slower">We've created a quizz to check your nutrition knowledge!</h2>
+
+                    <div class="play-quizz">
+                        <a href="quiz.html">
+                            <div class="play-button">
+                                PLAY
+                            </div>
+                        </a>
+                    </div>
+                    <div class="arrow"></div>
+                </section>
             </div>
-       
-    </div>
-    
-   
-</div>
 
-</div>
-    <footer>
-    <ul class="icons">
-        <li><a href="https://www.facebook.com/" target="_blank" 
-            rel="noopener" aria-label="Visit our Facebook page"> <i class="fab fa-facebook"></i></a></li>
+            <div class="container scroll-container jsScroll slide-right">
+                <section id="how-to-play">
+                    <h1>
+                        <span>HOW</span> <span>TO</span> <span>PLAY</span><span> <i class="fas fa-question"></i></span>
+                    </h1>
+                    <h2 class="scroll-container jsScroll slide-left-slower"><i class="fas fa-utensils"></i> Each question in the quiz is of multiple-choice.</h2>
+                    <h2 class="scroll-container jsScroll slide-right-slower"><i class="fas fa-apple-alt"></i> Read each question carefully, and click on your selected option.</h2>
+                    <h2 class="scroll-container jsScroll slide-left-slower"><i class="fas fa-seedling"></i>After responding to a question, next question will automatically show up .</h2>
+                    <h2 class="scroll-container jsScroll slide-right-slower"><i class="fas fa-carrot"></i>The total score for the quiz is based on your responses to all questions.</h2>
+                    <h2 class="scroll-container jsScroll slide-left-slower"><i class="fas fa-egg"></i> When answered 20 questions, you will get your score.</h2>
+                    <h2 class="scroll-container jsScroll slide-right-slower"><i class="fas fa-lemon"></i> You will be able to submit your score and compare it to others on the high score page.</h2>
+                    <h2 class="scroll-container jsScroll slide-left-slower"><i class="fab fa-nutritionix"></i>Good luck!</h2>
 
-        <li><a href="https://twitter.com/?lang=en" target="_blank" 
-            rel="noopener" aria-label="Visit our Twitter page"> <i class="fab fa-twitter"></i></a></li>
+                    <div class="play-quizz">
+                        <a href="quiz.html">
+                            <div class="play-button">
+                                PLAY
+                            </div>
+                        </a>
+                    </div>
+                    <div class="arrow"></div>
+                </section>
+            </div>
 
-        <li><a href="https://www.instagram.com/" target="_blank" 
-            rel="noopener" aria-label="Visit our Instagram page"> <i class="fab fa-instagram"></i></a></li>
+            <div class="container scroll-container jsScroll slide-left">
+                <section id="high-scores">
+                    <h1 id="final-score">
+                        <span>High Scores</span> <br />
+                        <span><i class="fas fa-trophy"></i></span>
+                    </h1>
+                    <a href="high-scores.html">
+                        <div class="go-to-high-scores">Click here to check out our champions <i class="fas fa-arrow-alt-circle-right"></i></div>
+                    </a>
+                </section>
+            </div>
+            <div class="last-div">
+                <button onclick="backToTopFunction()" id="to-top-btn" title="Back to top"><i class="fas fa-arrow-up"></i></button>
+            </div>
+        </div>
 
-        <li><a href="https://www.youtube.com/" target="_blank" 
-            rel="noopener" aria-label="Visit our Youtube page"> <i class="fab fa-youtube"></i></a></li>
-    </ul>
-    </footer>
-<!--Font awesome script-->
-<audio id="music" src="assets/audio/background-music.mp3"></audio>
-<script src="https://kit.fontawesome.com/ce8a43f771.js" crossorigin="anonymous"></script>
-<script src="assets/js/quiz.js"></script>
-<script src="assets/js/end.js"></script>
-<script src="assets/js/hamburger.js"></script>
+        <footer>
+            <ul class="icons">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page"> <i class="fab fa-facebook"></i></a>
+                </li>
 
+                <li>
+                    <a href="https://twitter.com/?lang=en" target="_blank" rel="noopener" aria-label="Visit our Twitter page"> <i class="fab fa-twitter"></i></a>
+                </li>
 
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page"> <i class="fab fa-instagram"></i></a>
+                </li>
 
-</body>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube page"> <i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+        </footer>
 
-
+        <!--Font awesome script-->
+        <script src="https://kit.fontawesome.com/ce8a43f771.js" crossorigin="anonymous"></script>
+        <script src="assets/js/high-scores.js"></script>
+        <script src="assets/js/index.js"></script>
+        <script src="assets/js/hamburger.js"></script>
+    </body>
 </html>
