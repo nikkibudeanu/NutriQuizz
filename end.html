@@ -1,102 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Responsive quizz website">
-    <meta name="keywords" content="quizz game nutrition iq ">
-    <!-- Link to CSS-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Responsive quizz website" />
+        <meta name="keywords" content="quizz game nutrition iq " />
+        <!-- Link to CSS-->
+        <link rel="stylesheet" href="assets/css/style.css" />
 
-
-
-    <title>NutriQuizz | Final Page</title>
-</head>
-<body>
-<!--Header-->
-    <header> 
-    <div id="logo"> 
-           <a href="index.html"> <img src="assets/images/nutri.png" alt="logo" /> </a> 
-    </div>
-    <!-- Top Navigation Menu -->
-    
-    <div class="navbar">
-        <div id="links">
-        <a href="index.html">
-                Home
-        </a>
-        <a href="high-scores.html">
-                High scores <i class="fas fa-trophy"></i></a>
-        <a href="quiz.html" class="nav-play">
-                    Play  <i class="far fa-play-circle"></i></a>
-    </div>
-    <a href="javascript:void(0);" class="hamburger-icon" onclick="hamburgerMenu()">
-        <i class="fa fa-bars"></i>
-      </a>
-</div>
-</header>
-    <div class="main-page">
-<div class="container">
-
-    <div id="final">
-        <h2 id="final-score"></h2>
-        <form>
-            <input  class="input"
-            type="text" 
-            name="username" 
-            id="username" 
-            placeholder="username" 
-            pattern="[a-zA-Z0-9]"/>
-            
-
-            <button 
-            type="submit" 
-            id="submit-score-button"
-            onclick="submitScore(event)"
-            disabled
-            >
-            Submit
-        </button>
-        </form>
-
-        <h2>Unhappy with your score?</h2>
-        <div class="play-quizz">
-            <a href="quiz.html">
-                <div class="play-button" >
-                Play 
+        <title>NutriQuizz | Final Page</title>
+    </head>
+    <body>
+        <!--Header-->
+        <header>
+            <div id="logo">
+                <a href="index.html"> <img src="assets/images/nutri.png" alt="logo" /> </a>
             </div>
-            </a>
-           </div>
-        
-    </div>
-</div>
+            <!-- Top Navigation Menu -->
 
+            <div class="navbar">
+                <div id="links">
+                    <a href="index.html">
+                        Home
+                    </a>
+                    <a href="high-scores.html"> High scores <i class="fas fa-trophy"></i></a>
+                    <a href="quiz.html" class="nav-play"> Play <i class="far fa-play-circle"></i></a>
+                </div>
+                <a href="javascript:void(0);" class="hamburger-icon" onclick="hamburgerMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </header>
+        <div class="main-page">
+            <div class="container">
+                <div id="final">
+                    <h2 id="final-score">0</h2>
+                    <form>
+                        <input class="input" type="text" name="username" id="username" placeholder="username" pattern="[a-zA-Z0-9]" />
 
-    <footer>
-    <ul class="icons">
-        <li><a href="https://www.facebook.com/" target="_blank" 
-            rel="noopener" aria-label="Visit our Facebook page"> <i class="fab fa-facebook"></i></a></li>
+                        <button type="submit" id="submit-score-button" onclick="submitScore(event)" disabled>
+                            Submit
+                        </button>
+                    </form>
 
-        <li><a href="https://twitter.com/?lang=en" target="_blank" 
-            rel="noopener" aria-label="Visit our Twitter page"> <i class="fab fa-twitter"></i></a></li>
+                    <h2>Unhappy with your score?</h2>
+                    <div class="play-quizz">
+                        <a href="quiz.html">
+                            <div class="play-button">
+                                Play
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <li><a href="https://www.instagram.com/" target="_blank" 
-            rel="noopener" aria-label="Visit our Instagram page"> <i class="fab fa-instagram"></i></a></li>
+        <footer>
+            <ul class="icons">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page"> <i class="fab fa-facebook"></i></a>
+                </li>
 
-        <li><a href="https://www.youtube.com/" target="_blank" 
-            rel="noopener" aria-label="Visit our Youtube page"> <i class="fab fa-youtube"></i></a></li>
-    </ul>
-    </footer>
-<!--Font awesome script-->
-<script src="https://kit.fontawesome.com/ce8a43f771.js" crossorigin="anonymous"></script>
-<script src="assets/js/end.js"></script>
-<script src="assets/js/quiz.js"></script>
-<script src="assets/js/hamburger.js"></script>
-<script src="assets/js/index.js"></script>
+                <li>
+                    <a href="https://twitter.com/?lang=en" target="_blank" rel="noopener" aria-label="Visit our Twitter page"> <i class="fab fa-twitter"></i></a>
+                </li>
 
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page"> <i class="fab fa-instagram"></i></a>
+                </li>
 
-</body>
-
-
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube page"> <i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+        </footer>
+        <!--Font awesome script-->
+        <script src="https://kit.fontawesome.com/ce8a43f771.js" crossorigin="anonymous"></script>
+        <script src="assets/js/end.js"></script>
+        <script src="assets/js/quiz.js"></script>
+        <script src="assets/js/hamburger.js"></script>
+        <script src="assets/js/index.js"></script>
+    </body>
 </html>
