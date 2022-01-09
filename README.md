@@ -1,7 +1,19 @@
 # NutriQuizz
 ![LOGO](assets/images/logo.png) 
 
-NutriQuizz 
+### NutriQuizz is an interactive quiz to check your nutrition knowledge. It is made for people interested in health and nutrition who are also passionated about quizzes and interactive online games. 
+
+Our users will be able to get instructions on how to play the quiz and also to test their knowledge as well as submit their score and check other users' scores. 
+
+![Mockups](assets/images/screens.png) 
+
+
+# Features
+
+
+
+
+
 
 # UX
 
@@ -103,15 +115,31 @@ https://www.fontpair.co/fonts/librefranklin
 
 
 ## Home:
+### MOBILE
+![Lighthouse report](assets/images/)
+### DESKTOP
 ![Lighthouse report](assets/images/)
 
-## Signup Page:
+
+## Quiz:
+### MOBILE
+![Lighthouse report](assets/images/)
+### DESKTOP
 ![Lighthouse report](assets/images/)
 
-## Breakfast Page:
+
+## End page:
+### MOBILE
+![Lighthouse report](assets/images/)
+### DESKTOP
 ![Lighthouse report](assets/images/)
 
-## About Page:
+
+## High Score Page:
+### MOBILE
 ![Lighthouse report](assets/images/)
+### DESKTOP
+![Lighthouse report](assets/images/)
+
 
 https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671
