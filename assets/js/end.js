@@ -33,5 +33,5 @@ return y.score - x.score
     localStorage.setItem('highestScores', JSON.stringify(highestScores));
 
     //return to home page after submitting username
-    window.location.assign('/index.html');
+    window.location.assign('/NutriQuizz/index.html');
 };

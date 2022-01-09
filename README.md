@@ -1,7 +1,7 @@
 # NutriQuizz
-![LOGO](assets/images/nutri.png) 
+![LOGO](assets/images/logo.png) 
 
-
+NutriQuizz 
 
 # UX
 
@@ -57,6 +57,7 @@ The features of NutriQuiz will include:
 * ## Navbar: 
 The navbar includes links to the below sections:
 Home, How to Play, High Scores, Play button.
+On mobile screens, the navbar turns into a hamburger menu. 
 
 * ##  Home section: 
 
