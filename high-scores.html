@@ -1,75 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Responsive quizz website">
-    <meta name="keywords" content="quizz game nutrition iq ">
-    <!-- Link to CSS-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/final-page.css">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Responsive quizz website" />
+        <meta name="keywords" content="quizz game nutrition iq " />
+        <!-- Link to CSS-->
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/final-page.css" />
 
+        <title>NutriQuizz | High Scores</title>
+    </head>
+    <body>
+        <!--Header-->
+        <header>
+            <div id="logo">
+                <a href="index.html"> <img src="assets/images/nutri.png" alt="logo" /> </a>
+            </div>
+            <!-- Top Navigation Menu -->
+            <div class="navbar">
+                <div id="links">
+                    <a href="index.html">
+                        Home
+                    </a>
+                    <a href="high-scores.html"> High scores <i class="fas fa-trophy"></i></a>
+                    <a href="quiz.html" class="nav-play"> Play <i class="far fa-play-circle"></i></a>
+                </div>
+                <a href="javascript:void(0);" class="hamburger-icon" onclick="hamburgerMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </header>
+        <div class="main-page">
+            <div class="container">
+                <div id="highestScores">
+                    <h1 id="final-score">
+                        Highest Scores <br />
+                        <i class="fas fa-trophy"></i>
+                    </h1>
+                    <ul id="highestScoresList"></ul>
+                </div>
+            </div>
+        </div>
 
-    <title>NutriQuizz | High Scores</title>
-</head>
-<body>
-<!--Header-->
-    <header> 
-    <div id="logo"> 
-           <a href="index.html"> <img src="assets/images/nutri.png" alt="logo" /> </a> 
-    </div>
-    <!-- Top Navigation Menu -->
-    <div class="navbar">
-        <div id="links">
-        <a href="index.html">
-                Home
-        </a>
-        <a href="high-scores.html">
-                High scores <i class="fas fa-trophy"></i></a>
-        <a href="quiz.html" class="nav-play">
-                    Play  <i class="far fa-play-circle"></i></a>
-    </div>
-    <a href="javascript:void(0);" class="hamburger-icon" onclick="hamburgerMenu()">
-        <i class="fa fa-bars"></i>
-      </a>
-</div>
+        <footer>
+            <ul class="icons">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page"> <i class="fab fa-facebook"></i></a>
+                </li>
 
-    </header>
-    <div class="main-page">
-<div class="container">
-    <div id="highestScores" >
-        <h1 id="final-score">Highest Scores <br> <i class="fas fa-trophy"></i></h1>
-        <ul id="highestScoresList"></ul>
-      </div>
-    </div>
+                <li>
+                    <a href="https://twitter.com/?lang=en" target="_blank" rel="noopener" aria-label="Visit our Twitter page"> <i class="fab fa-twitter"></i></a>
+                </li>
 
-</div>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page"> <i class="fab fa-instagram"></i></a>
+                </li>
 
-    <footer>
-    <ul class="icons">
-        <li><a href="https://www.facebook.com/" target="_blank" 
-            rel="noopener" aria-label="Visit our Facebook page"> <i class="fab fa-facebook"></i></a></li>
-
-        <li><a href="https://twitter.com/?lang=en" target="_blank" 
-            rel="noopener" aria-label="Visit our Twitter page"> <i class="fab fa-twitter"></i></a></li>
-
-        <li><a href="https://www.instagram.com/" target="_blank" 
-            rel="noopener" aria-label="Visit our Instagram page"> <i class="fab fa-instagram"></i></a></li>
-
-        <li><a href="https://www.youtube.com/" target="_blank" 
-            rel="noopener" aria-label="Visit our Youtube page"> <i class="fab fa-youtube"></i></a></li>
-    </ul>
-    </footer>
-<!--Font awesome script-->
-<script src="https://kit.fontawesome.com/ce8a43f771.js" crossorigin="anonymous"></script>
-<script src="assets/js/high-scores.js"></script>
-<script src="assets/js/hamburger.js"></script>
-
-
-
-
-</body>
-
-
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube page"> <i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+        </footer>
+        <!--Font awesome script-->
+        <script src="https://kit.fontawesome.com/ce8a43f771.js" crossorigin="anonymous"></script>
+        <script src="assets/js/high-scores.js"></script>
+        <script src="assets/js/hamburger.js"></script>
+    </body>
 </html>
