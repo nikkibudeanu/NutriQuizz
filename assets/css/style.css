@@ -110,7 +110,7 @@ header img {
     transform: translate(2px, 2px);
 }
 
-/* CONTAINER*/
+/* CONTAINERS */
 .main-page {
     display: flex;
     flex-wrap: wrap;
@@ -237,7 +237,7 @@ footer {
     }
 }
 
-/* mouse animation - scroll down */
+/* MOUSE ANIMATION - SCROLL DOWN*/
 .arrow {
     position: relative;
     left: 50%;
@@ -309,6 +309,7 @@ inspired from: https://getcssscan.com/css-buttons-examples
 }
 
 /*HOW TO PLAY SECTION */
+
 
 /* HIGH SCORES SECTION */
 #highestScoresList {
@@ -446,12 +447,15 @@ form {
     width: 100px;
 }
 
+/* STYLE FOR TABLET SCREENS*/
 @media screen and (max-width: 1000px) and (min-width: 600px) {
     .nav-play {
         display: none;
     }
 }
 
+
+/* STYLE FOR PHONE SCREENS */
 @media screen and (max-width: 600px) and (min-width: 320px) {
     .container {
         margin: 10px 20px;
