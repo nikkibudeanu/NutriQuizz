@@ -107,6 +107,70 @@ const QUESTION_BANK = [
             option3: '4',
             option4: '7',
             answer: 2,
+        },
+        {
+            question: "Where does most of your vitamin D come from?",
+            option1: 'eggs',
+            option2: 'cereal',
+            option3: 'sunlight',
+            option4: 'oily fish',
+            answer: 3,
+        },
+        {
+            question: "Which of these is a healthier choice of fat?            ",
+            option1: 'trans fats',
+            option2: 'saturated fats',
+            option3: 'unsaturated fats',
+            option4: 'none',
+            answer: 3,
+        },
+        {
+            question: "How much calcium does an adult need each day?",
+            option1: '100mg',
+            option2: '100g',
+            option3: '700mg',
+            option4: '400mg',
+            answer: 3,
+        },
+        {
+            question: "Which of the following is a whole grain?            ",
+            option1: 'popcorn',
+            option2: 'couscous',
+            option3: 'corn tortilla',
+            option4: 'multigrain bread',
+            answer: 1,
+        },
+        {
+            question: "Which of the following is not an added sugar?            ",
+            option1: 'high-fructose corn syrup',
+            option2: 'maple syrup',
+            option3: 'honey',
+            option4: 'fructose',
+            answer: 4,
+        },
+        {
+            question: "Which of these is a solid fat?            ",
+            option1: 'butter',
+            option2: 'chicken fat',
+            option3: 'hydrogenated oils',
+            option4: 'all of the above',
+            answer: 4,
+        },
+        {
+            question: "Which of these oils and fats is healthiest for cooking?            ",
+            option1: 'butter',
+            option2: 'canola',
+            option3: 'margarine',
+            option4: 'lard',
+            answer: 2,
+        },
+        {
+            question: "Which of these sweeteners comes from a plant?            ",
+            option1: 'stevia',
+            option2: 'aspartame',
+            option3: 'sucralose',
+            option4: 'neotame',
+            answer: 1,
         }
         ];
 
@@ -115,7 +179,7 @@ const QUESTION_BANK = [
   
 //CONSTANTS
   const CORRECT_AWARD =10 ;
-  const MAX_QUESTIONS =12;
+  const MAX_QUESTIONS =20;
   
   
   function startGame() {
@@ -157,22 +221,21 @@ options.forEach(option => {
     hasAnyOptionBeenClicked=false;
 }
 
-
+//add function for options in html file
 function addEventListenerToOptions() {
     options.forEach(option=>{
       option.addEventListener('click', e => {
           if(hasAnyOptionBeenClicked) return;
-  
           hasAnyOptionBeenClicked = true;
       
           const clickedOption = e.target;
           const clickedAnswer = clickedOption.dataset['number'];
   
           const isAnswerCorrect = clickedAnswer == currentQuestion.answer;
-          
+        // add new class for right and wrong answers
           const classToApply = isAnswerCorrect ? "right" : "wrong";
           
-  
+  // add condition for score to increment
           if(isAnswerCorrect) {
               raiseScore();
           }
@@ -187,12 +250,13 @@ function addEventListenerToOptions() {
       });
     });
   }
-    
+// add function to raise the score by 10 each time the answer is right
   function raiseScore() {
       score += CORRECT_AWARD;
       scoreDisplay.innerText = score;
   }
 
+  // BACKGROUND MUSIC 
   // background music variables
   let music = document.getElementById('music');
   music.volume = 0.2;
