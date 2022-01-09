@@ -16,7 +16,6 @@ font-weight: 300;
 color: #FB7813;
 background-color: #F7F7EE;
 font-weight: 500;
-margin: 0;
 overflow-x: hidden;
   
 }
@@ -131,6 +130,7 @@ display:none;
   display:flex;
   flex-wrap: wrap;
   justify-content:center ;
+
   }
   
   .container{
@@ -138,11 +138,9 @@ display:none;
       background-color:#17706E; 
       border-radius: 30px;
       padding: 30px 80px;
-      min-height: calc(100vh - 200px);
+      min-height: calc(100vh - 240px);
       position:relative;
       width:100%;
-    
-     
     }
 
   .container a{
@@ -406,7 +404,6 @@ background-color: #fbeee0;
 }
 
 .music-icon{
-  font-size:2rem;
   background-color: #fbeee0;
   border: 2px solid #FB7813;
   border-radius: 20px;
@@ -424,7 +421,7 @@ background-color: #fbeee0;
 }
 
 .music-icon:active {
-  box-shadow: #422800 2px 2px 0 0;
+  box-shadow: #FB7813 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
 
@@ -439,10 +436,13 @@ background-color: #fbeee0;
   .container{
     margin: 10px 20px;
     width:100%; 
+    overflow-x: hidden;
+
   }
   h1{
-    font-size: 1rem;
+    font-size: 1.5rem;
     width:100%;
+    text-align: center;
   }
 
   .main-page{
@@ -485,7 +485,7 @@ background-color: #fbeee0;
     right: 0px;
     top: 50%;
     width: 50px;
-    background-color: #FB7813;
+    background-color: #F7F7EE;
     height: 200px;
     border-radius: 10px 0px 0px 10px;
     transform: translateY(-50%);
@@ -501,6 +501,41 @@ background-color: #fbeee0;
 .icons {
     position: absolute;
     right: 5px;
+}
+
+
+/* QUIZZ */
+
+
+#info{
+  flex-wrap: wrap;
+  gap: 1rem;
+  row-gap: 0.5rem;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#first-quizz h1 {
+  display:none;
+}
+
+.options {
+  width:100%;
+  margin-left:-50px;
+}
+
+.options-content{
+  font-size: 1rem; 
+}
+#question{
+  text-align:center;
+  font-size: 1.2rem;
+}
+
+
+.music-icon{
+font-size: 1rem;
 }
 
 
