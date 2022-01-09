@@ -31,5 +31,7 @@ return y.score - x.score
     highestScores.splice(10);
 
     localStorage.setItem('highestScores', JSON.stringify(highestScores));
-    window.location.assign('/quiz.html');
+
+    //return to home page after submitting username
+    window.location.assign('/index.html');
 };
