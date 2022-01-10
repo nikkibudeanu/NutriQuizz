@@ -1,7 +1,7 @@
 // variables for the high score list
 const highestScoresList = document.getElementById("highestScoresList");
 
-// use JSON parse methods to get high score data from the local storage  and create an array from it
+// used JSON parse methods to get high score data from the local storage  and create an array from it
 
 const highestScores = JSON.parse(localStorage.getItem("highestScores")) || [];
 
