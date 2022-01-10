@@ -60,8 +60,11 @@ The quiz page contains the music toggle, progress information section, the quest
 ![Quiz](assets/images/quizpage.png) 
 
 * # Play Button
-This button enables you to access our quiz. It is present on the intro section, end page, how to play section and also the navigation bar. 
+
 ![Play Button](assets/images/play1.png) 
+
+This button enables you to access our quiz. It is present on the intro section, end page, how to play section and also the navigation bar. 
+
 ![Play Button](assets/images/play2.png) 
 
 
