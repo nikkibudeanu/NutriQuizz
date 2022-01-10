@@ -36,7 +36,8 @@ The logo was created in Canva and I used the same font family as the headings "L
 
 
 * # How to play section
-This section is animated using CSS and Javascript. It slides from left and right while scrolling and it includes an instruction on how to play the quiz. It is the second section on the home page. I got inspired  here to create the animation. https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671
+This section is animated using CSS and Javascript. It slides from left and right while scrolling and it includes an instruction on how to play the quiz. It is the second section on the home page. The animation role is to create an impression of storytelling and to make the user feel like he is impacting the flow of the website by scrolling down. 
+I got inspired  here to create the animation. https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671
  
 ![How to play](assets/images/howto.png) 
 
@@ -171,7 +172,7 @@ The project initially was meant to have 3 levels. However, I could not figure ou
 
 
  * ## Color 
-* The color palette was selected on the website below:
+* I selected these colors because they are bright and fresh. I wanted to select a darker color for the containers to create a contrast between the body and the rounded containers. The colors also can be associated with the subject of the quiz. In the headings, I have created a shadow effect to catch the eye of the user straight away on each section and to create a flow. The color palette was selected on the website below:
 
 https://colorhunt.co/palette/b6eb7af7f7eefb781317706e
 
