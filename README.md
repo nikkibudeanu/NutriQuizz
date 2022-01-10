@@ -225,7 +225,7 @@ No errors were returned when passing through the official W3C validator
 * ## CSS
 No errors were found when passing through the official (Jigsaw) validator
 * ## JavaScript
-
+Some errors were found when passing through the official Jshint validator : unused variables mainly. However, after seeing the warnings I have edited the code. 
 
 # Bugs
 * The end page was functionable while working on the port, however, on the published page, I would get an error that the page was not published. I then figured out that in the javascript file, I assigned the window location as " end.html" instead of "/NutriQuizz/end.html". Same with the submit username button, I assigned it to "index.html" instead of"/NutriQuizz/end.html". 
