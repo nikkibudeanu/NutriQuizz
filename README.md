@@ -9,7 +9,17 @@ Our users will be able to get instructions on how to play the quiz and also to t
 
 
 # Features
+Responsive on DESKTOP, TABLET and MOBILE screens.
 
+* ## Home Page
+The main page of NutriQuiz consists of a navigation bar, a main page with an intro message, the "how to play" section, the "high scores" section and the footer. When landing on NutriQuiz's main page, you will be welcomed by an animated message which will introduce you to our main purpose. 
+
+Link: https://nikkibudeanu.github.io/NutriQuizz/index.html
+
+
+
+
+![Home Page](assets/images/homepage.png) 
 
 
 
