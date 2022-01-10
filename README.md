@@ -3,6 +3,8 @@
 
 ## NutriQuizz is an interactive quiz to check your nutrition knowledge. It is made for people interested in health and nutrition who are also passionated about quizzes and interactive online games. 
 
+https://nikkibudeanu.github.io/NutriQuizz
+
 ### Our users will be able to get instructions on how to play the quiz and also to test their knowledge as well as submit their score and check other users' scores. 
 
 ![Mockups](assets/images/screens.png) 

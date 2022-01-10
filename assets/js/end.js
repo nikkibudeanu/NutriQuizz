@@ -31,5 +31,5 @@ function submitScore(e) {
     localStorage.setItem("highestScores", JSON.stringify(highestScores));
 
     //return to home page after submitting username
-    window.location.assign("/NutriQuizz/index.html");
+    window.location.assign("/NutriQuizz/quiz.html");
 }
