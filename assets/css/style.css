@@ -104,7 +104,7 @@ header img {
     color: #17706e;
     background-color: white;
 }
-
+ /* inspired by  https://getcssscan.com/css-buttons-examples */
 .nav-play:active {
     box-shadow: #422800 2px 2px 0 0;
     transform: translate(2px, 2px);
@@ -138,7 +138,7 @@ header img {
     justify-content: center;
     align-items: center;
 }
-
+ /* inspired by  https://getcssscan.com/css-buttons-examples */
 #to-top-btn {
     background-color: #fbeee0;
     border: 2px solid #fb7813;
@@ -322,6 +322,8 @@ inspired from: https://getcssscan.com/css-buttons-examples
     list-style-type: none;
     border: 2px solid #fb7813;
 }
+
+ /* inspired by  https://getcssscan.com/css-buttons-examples */
 .go-to-high-scores {
     background-color: #fbeee0;
     border: 2px solid #fb7813;
@@ -358,6 +360,7 @@ inspired from: https://getcssscan.com/css-buttons-examples
 }
 .options:hover {
     cursor: pointer;
+      /* taken from https://getcssscan.com/css-box-shadow-examples*/
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     transform: translateY(-0.1rem);
     transition: transform 150ms;

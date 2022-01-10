@@ -11,7 +11,7 @@ Our users will be able to get instructions on how to play the quiz and also to t
 # Features
 Responsive on DESKTOP, TABLET and MOBILE screens.
 
-* ## Home Page
+* # Home Page
 The main page of NutriQuiz consists of a navigation bar, a main page with an intro message, the "how to play" section, the "high scores" section and the footer. When landing on NutriQuiz's main page, you will be welcomed by an animated message which will introduce you to our main purpose. 
 
 Link: https://nikkibudeanu.github.io/NutriQuizz/index.html
@@ -19,7 +19,7 @@ Link: https://nikkibudeanu.github.io/NutriQuizz/index.html
 ![Home Page](assets/images/homepage.png) 
 
 
-* ## Navigation Bar
+* # Navigation Bar
 The navigation bar is featured on all pages. The navigation bar will allow the user to easily navigate from page to page across all devices without  using the ‘back’ button. It includes links to the quiz, high score page and a logo created by me in Canva. It turns into a hamburger menu on phone screens.
 
 ![Nav bar](assets/images/nav.png) 
@@ -27,32 +27,46 @@ The navigation bar is featured on all pages. The navigation bar will allow the u
 ![Nav bar mobile](assets/images/mobilenav2.png) 
 
 
-* ## Logo
+* # Logo
 The logo was created in Canva and I used the same font family as the headings "LibreFranklin Black". It is clickable and brings you to the home page.
 
-* ## How to play section
-This section is animated using CSS and Javascript. It slides from left and right while scrolling and it includes an instruction on how to play the quiz. It is the second section on the home page. 
+* # How to play section
+This section is animated using CSS and Javascript. It slides from left and right while scrolling and it includes an instruction on how to play the quiz. It is the second section on the home page. I got inspired  here to create the animation. https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671
+ 
 ![How to play](assets/images/howto.png) 
 
-* ## High scores section
+* # High scores section
 This section is also part of the main page and it includes a button which redirects you to the high scores page where you will find our top 5 users with the highest scores. 
 
 ![High scores section](assets/images/highscores.png) 
 ![High scores page](assets/images/highscorespage.png) 
 
-* ## Back to top button
+* # Back to top button
 This button is present at the end of the home page and its role is to scroll up to the top of the page with a single click.
 
 ![Back to top button](assets/images/totop.png) 
 
-* ## Footer
+* # Footer
 The footer includes 4 clickable icons which will redirect you to our social media chanels. 
 
 ![Footer](assets/images/footer.png) 
 
 
-* ## The Quiz Page
+* # The Quiz Page
+The quiz page contains the music toggle, progress information section, the question and answer options section. 
 ![Quiz](assets/images/quizpage.png) 
+
+* # Play Button
+This button enables you to access our quiz. It is present on the intro section, end page, how to play section and also the navigation bar. 
+![Play Button](assets/images/play1.png) 
+![Play Button](assets/images/play2.png) 
+
+
+
+* # End Page
+
+This page will display your score and you will also be able to submit it along with your username. It also includes a "play button" to retake the quizz if you are not happy with your score. 
+![End page](assets/images/endpage.png) 
 
 
 
@@ -76,6 +90,7 @@ As a user, I want to:
 * Access the website's social media pages easily by clicking on the footer icons. 
 * Be able to access "How to play" section on the page home. 
 * Be able to click a button to scroll up. 
+* Turn the background music on and off. 
 
 
  ## User goals:
@@ -142,6 +157,9 @@ This page includes the score you get as well as a button to go back and retake t
 ## Mockups were created using Figma. 
 
 ### Initial Wireframes 
+
+The project initially was meant to have 3 levels. However, I could not figure out how to efficiently link the levels through Javascript and I ended up only doing one level. This is why, my initial wireframes were the below ones. 
+
 ![Home](assets/images/home.png ) 
 ![Home](assets/images/quizz.png) 
 
@@ -162,108 +180,88 @@ https://colorhunt.co/palette/b6eb7af7f7eefb781317706e
 https://www.fontpair.co
 
  ## Audio
-
+The background music in the quiz page was downloaded from https://www.bensound.com/ . The sound is called "sweet". 
 
 
 # TESTING
+* I tested NutriQuiz on various browsers: Safari, Google Chrome, Mozilla Firefox.
+* I confirmed that all the website features are easy to understand and readable.
+* I confirmed that the navigation bar and footer works on different screen sizes.
+* I passed the Lighthouse Developper tool's report with more than 90% for all pages.
+* I shared the deployed page with a couple of colleagues from the Code Institute to get feedback. 
 
 
 ## Home:
 ### MOBILE
-![Lighthouse report](assets/images/)
+![Lighthouse report](assets/images/indexmobile.png)
 ### DESKTOP
-![Lighthouse report](assets/images/)
+![Lighthouse report](assets/images/indexdesktop.png)
 
 
 ## Quiz:
 ### MOBILE
-![Lighthouse report](assets/images/)
+![Lighthouse report](assets/images/quizmobile.png)
 ### DESKTOP
-![Lighthouse report](assets/images/)
+![Lighthouse report](assets/images/quizdesktop.png)
 
 
 ## End page:
 ### MOBILE
-![Lighthouse report](assets/images/)
+![Lighthouse report](assets/images/endmobile.png)
 ### DESKTOP
-![Lighthouse report](assets/images/)
+![Lighthouse report](assets/images/enddesktop.png)
 
 
 ## High Score Page:
 ### MOBILE
-![Lighthouse report](assets/images/)
+![Lighthouse report](assets/images/scoresmobile.png)
 ### DESKTOP
-![Lighthouse report](assets/images/)
+![Lighthouse report](assets/images/scoresdesktop.png)
 
 
-https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671
+# Validator Testing
+
+* ## HTML
+No errors were returned when passing through the official W3C validator
+* ## CSS
+No errors were found when passing through the official (Jigsaw) validator
+* ## JavaScript
 
 
-Bugs
-The main video of the screen was positioned a few pixels from the left of the screen and I eventually figured that there is an automatic margin which needs to be set to 0 in order to avoid issues like these.
+# Bugs
 
-When deployed, I would get an error that github cannot find the files. The problem was caused by choosing the wrong option when deploying the website to github pages: files instead of root.
 
-I was using % for font and positioning, instead of using pixels/rem. It caused some issues as I always needed to change the font size for various screen sizes.
 
-Initially, for breakfast, lunch and dinner pages, I used a different flexbox for each recipe and the code was way too long. It took me some time to realize that I can use the same class for each recipe and only write a few lines to style all 3 pages.
+# Unfixed bugs
 
-Unfixed bugs
-I have noticed that at some instances, the main video is not responsive on iOS. I did some research and figured that iOS does not acces mp4 files. Therefore, I decided to convert my mp4 file to a mpeg file but the video was not responsive at all. I figured this issues after my call with the mentor and unfortunately, I could not fix it.
-Deployment
-EAT+FIT was deployed to GitHub pages.
+# Deployment
+ ## NutriQuiz was deployed to GitHub pages.
 
 The steps to deploy are as follows:
 
-In the GitHub repository, navigate to the Settings tab
-Scroll down the Settings page until you locate the "GitHub Pages" Section.
-Under "Source", click the drop down called "None" and select "Main Branch".
-Link: https://nikkibudeanu.github.io/my-first-project/index.html
+* In the GitHub repository, navigate to the Settings tab
+* Scroll down the Settings page until you locate the "GitHub Pages" Section.
+* Under "Source", click the drop down called "None" and select "Main Branch".
+Link: https://nikkibudeanu.github.io/NutriQuizz/index.html
 
-Credits
-Content:
-Recipes were taken from the websites below:
 
-http://recipeofhealth.com/recipe/oladi-russian-pancakes-320811rb
-https://loseweightbyeating.com/avocado-toast-recipes/
-https://www.healthline.com/nutrition/overnight-oats-recipes#1.-Basic-overnight-oats
-https://kaynutrition.com/edamame-salad/
-https://www.yummly.com/recipes/quinoa-salad-low-calorie
-https://www.bbcgoodfood.com/recipes/italian-style-stuffed-aubergines
-https://www.verywellfit.com/creamy-spicy-pumpkin-soup-2242417
-https://www.quorn.co.nz/recipes/vegan-nuggets-salad-bowl
-Media :
-All images/videos were taken from Pexels.
+# Credits
+## Content:
+The questions were taken from the websites below: 
+* https://www.bupa.co.uk/health-information/tools-calculators/nutrition-quiz 
+* https://www.healthline.com/nutrition/biggest-lies-of-nutrition#3.-Breakfast-is-the-most-important-meal-of-the-day
 
-Code :
+
+## Code :
 The box shadow code was taken from the website below:
 
 https://getcssscan.com/css-box-shadow-examples
 
-Acknowledgements
-My mentor Akshat Garg for continuous assesement and insightful resources and feedback.
-About
-No description, website, or topics provided.
-Topics
-Resources
- Readme
-Stars
- 0 stars
-Watchers
- 1 watching
-Forks
- 1 fork
-Releases
-No releases published
-Create a new release
-Packages
-No packages published
-Publish your first package
-Environments 1
- github-pages Active
-Languages
-HTML
-77.4%
- 
-CSS
-22.6%
+The play button was inspired from the website below, with some custom adjustments. 
+https://getcssscan.com/css-buttons-examples 
+
+# Acknowledgements
+My colleague Harry from C
+
+
+
