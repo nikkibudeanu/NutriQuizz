@@ -7,8 +7,6 @@ const finalScore = document.getElementById("final-score");
 // use JSON parse and stringify methods to get high score data from the local storage
 const highestScores = JSON.parse(localStorage.getItem("highestScores")) || [];
 
-const MAX_HIGHEST_SCORES = 5;
-
 // display score to the user
 finalScore.innerText = `You scored ${recentScore} out of 200`;
 

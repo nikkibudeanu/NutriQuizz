@@ -30,6 +30,9 @@ The navigation bar is featured on all pages. The navigation bar will allow the u
 * # Logo
 The logo was created in Canva and I used the same font family as the headings "LibreFranklin Black". It is clickable and brings you to the home page.
 
+![LOGO](assets/images/logo.png) 
+
+
 * # How to play section
 This section is animated using CSS and Javascript. It slides from left and right while scrolling and it includes an instruction on how to play the quiz. It is the second section on the home page. I got inspired  here to create the animation. https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671
  
@@ -62,14 +65,10 @@ This button enables you to access our quiz. It is present on the intro section, 
 ![Play Button](assets/images/play2.png) 
 
 
-
 * # End Page
 
 This page will display your score and you will also be able to submit it along with your username. It also includes a "play button" to retake the quizz if you are not happy with your score. 
 ![End page](assets/images/endpage.png) 
-
-
-
 
 
 
@@ -156,7 +155,7 @@ This page includes the score you get as well as a button to go back and retake t
 
 ## Mockups were created using Figma. 
 
-### Initial Wireframes 
+* Initial Wireframes 
 
 The project initially was meant to have 3 levels. However, I could not figure out how to efficiently link the levels through Javascript and I ended up only doing one level. This is why, my initial wireframes were the below ones. 
 
@@ -166,20 +165,20 @@ The project initially was meant to have 3 levels. However, I could not figure ou
 # 5. SURFACE 
 
 
- ## Color 
+ * ## Color 
 * The color palette was selected on the website below:
 
 https://colorhunt.co/palette/b6eb7af7f7eefb781317706e
 
 ![color palette](assets/images/palette.png)
 
- ## Typography
+ * ## Typography
 
 * LibreFranklin Black is used as the main font and QuickSand is the font used for the paragraphs. For inspiration, I used the website below. 
 
 https://www.fontpair.co
 
- ## Audio
+ * ## Audio
 The background music in the quiz page was downloaded from https://www.bensound.com/ . The sound is called "sweet". 
 
 
@@ -229,12 +228,14 @@ No errors were found when passing through the official (Jigsaw) validator
 
 
 # Bugs
-
+* The end page was functionable while working on the port, however, on the published page, I would get an error that the page was not published. I then figured out that in the javascript file, I assigned the window location as " end.html" instead of "/NutriQuizz/end.html". Same with the submit username button, I assigned it to "index.html" instead of"/NutriQuizz/end.html". 
 
 
 # Unfixed bugs
+* On the end page, I noticed that the user is able to submit their usernames using empty spaces. This bug was actually noticed by my colleague when I shared the website with him. I tried a solution for this adding  the pattern="[a-zA-Z0-9]{5,15}" to the input field. However, it did not seem to be working. 
 
 # Deployment
+
  ## NutriQuiz was deployed to GitHub pages.
 
 The steps to deploy are as follows:
@@ -266,10 +267,13 @@ https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671
 https://www.youtube.com/watch?v=S18Wh9IELo0
 
+* For scroll down arrow I used inspiration from :
+https://csshint.com/html-css-scroll-down-arrow-examples/
+
 
 
 # Acknowledgements
-My colleague Harry from C
+My colleague Harry from Code Institute for feedback and support. 
 
 
 
