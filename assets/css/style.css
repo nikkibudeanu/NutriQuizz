@@ -170,6 +170,7 @@ footer {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 1px;
+
 }
 
 .icons li {
@@ -179,7 +180,8 @@ footer {
 .icons i {
     font-size: 2rem;
     color: #17706e;
-    padding-top: 10px;
+    padding: 10px 10px;
+
 }
 
 .icons i:hover {
@@ -307,9 +309,6 @@ inspired from: https://getcssscan.com/css-buttons-examples
     box-shadow: #422800 2px 2px 0 0;
     transform: translate(2px, 2px);
 }
-
-/*HOW TO PLAY SECTION */
-
 
 /* HIGH SCORES SECTION */
 #highestScoresList {
@@ -454,17 +453,19 @@ form {
     }
 }
 
-
 /* STYLE FOR PHONE SCREENS */
 @media screen and (max-width: 600px) and (min-width: 320px) {
     .container {
-        margin: 10px 20px;
+        margin: 10px 15px;
         width: 100%;
     }
-    h1 {
-        font-size: 1.5rem;
-        width: 100%;
+
+    h1 span {
         text-align: center;
+    }
+
+    h1 {
+        font-size: 2.5rem;
     }
 
     .main-page {
@@ -507,7 +508,7 @@ form {
         position: fixed;
         right: 0px;
         top: 50%;
-        width: 50px;
+        width: 60px;
         background-color: #f7f7ee;
         height: 200px;
         border-radius: 10px 0px 0px 10px;
