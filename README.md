@@ -16,10 +16,44 @@ The main page of NutriQuiz consists of a navigation bar, a main page with an int
 
 Link: https://nikkibudeanu.github.io/NutriQuizz/index.html
 
-
-
-
 ![Home Page](assets/images/homepage.png) 
+
+
+* ## Navigation Bar
+The navigation bar is featured on all pages. The navigation bar will allow the user to easily navigate from page to page across all devices without  using the ‘back’ button. It includes links to the quiz, high score page and a logo created by me in Canva. It turns into a hamburger menu on phone screens.
+
+![Nav bar](assets/images/nav.png) 
+![Nav bar mobile](assets/images/mobilenav1.png) 
+![Nav bar mobile](assets/images/mobilenav2.png) 
+
+
+* ## Logo
+The logo was created in Canva and I used the same font family as the headings "LibreFranklin Black". It is clickable and brings you to the home page.
+
+* ## How to play section
+This section is animated using CSS and Javascript. It slides from left and right while scrolling and it includes an instruction on how to play the quiz. It is the second section on the home page. 
+![How to play](assets/images/howto.png) 
+
+* ## High scores section
+This section is also part of the main page and it includes a button which redirects you to the high scores page where you will find our top 5 users with the highest scores. 
+
+![High scores section](assets/images/highscores.png) 
+![High scores page](assets/images/highscorespage.png) 
+
+* ## Back to top button
+This button is present at the end of the home page and its role is to scroll up to the top of the page with a single click.
+
+![Back to top button](assets/images/totop.png) 
+
+* ## Footer
+The footer includes 4 clickable icons which will redirect you to our social media chanels. 
+
+![Footer](assets/images/footer.png) 
+
+
+* ## The Quiz Page
+![Quiz](assets/images/quizpage.png) 
+
 
 
 
