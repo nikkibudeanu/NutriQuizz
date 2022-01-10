@@ -1,9 +1,9 @@
 # NutriQuizz
 ![LOGO](assets/images/logo.png) 
 
-### NutriQuizz is an interactive quiz to check your nutrition knowledge. It is made for people interested in health and nutrition who are also passionated about quizzes and interactive online games. 
+## NutriQuizz is an interactive quiz to check your nutrition knowledge. It is made for people interested in health and nutrition who are also passionated about quizzes and interactive online games. 
 
-Our users will be able to get instructions on how to play the quiz and also to test their knowledge as well as submit their score and check other users' scores. 
+### Our users will be able to get instructions on how to play the quiz and also to test their knowledge as well as submit their score and check other users' scores. 
 
 ![Mockups](assets/images/screens.png) 
 
@@ -253,12 +253,20 @@ The questions were taken from the websites below:
 
 
 ## Code :
-The box shadow code was taken from the website below:
-
+* The box shadow code was taken from the website below:
 https://getcssscan.com/css-box-shadow-examples
 
-The play button was inspired from the website below, with some custom adjustments. 
+* The play button was inspired from the website below, with some custom adjustments. 
 https://getcssscan.com/css-buttons-examples 
+
+* I learnt how to do the hamburger menu on the link below :
+https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+
+* I learnt how to do the scrolling animation on the links below:
+https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671
+https://www.youtube.com/watch?v=S18Wh9IELo0
+
+
 
 # Acknowledgements
 My colleague Harry from C

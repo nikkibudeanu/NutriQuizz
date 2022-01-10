@@ -449,6 +449,11 @@ form {
     width: 100px;
 }
 
+#submit-score-button:hover{
+    color: #17706e;
+    background-color: white;
+}
+
 /* STYLE FOR TABLET SCREENS*/
 @media screen and (max-width: 1000px) and (min-width: 600px) {
     .nav-play {
